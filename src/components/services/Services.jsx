@@ -11,25 +11,22 @@ const Services = () => {
         <article className='service'>
           <div className="service__head">
             {/* 1st Service */}
-            <h3>Frontend Development (React.js)</h3>
+            <h3>Frontend Development</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Responsive design for all screen sizes (mobile, tablet, desktop)</p>
+              <p>I specialize in building modern and responsive web interfaces using HTML, CSS, JavaScript, and React. </p>
               </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Single-page applications (SPAs) with React Router</p>
+              <p> Whether it’s a sleek landing page, an interactive web app, or a fully dynamic website.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>State management using Redux or Context API</p>
+              <p>I can deliver high-quality solutions tailored to your needs.</p>
               </li>
-              <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Integration of APIs for real-time data updates</p>
-              </li>      
+                  
 
           </ul>
         </article>
@@ -38,25 +35,25 @@ const Services = () => {
       {/* 2nd Service */}
       <article className='service'>
           <div className="service__head">
-            <h3>Backend Development (Node.js & Express)</h3>
+            <h3>Responsive Web Design</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>RESTful API development</p>
+              <p>I design websites that adapt seamlessly across different devices, ensuring an optimal experience for all users</p>
               </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>User authentication and security (JWT, OAuth)</p>
+              <p> With a focus on clean and efficient code, I create designs that are both aesthetically pleasing and functional.</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='service__list-icon'/>
               <p>Database management with MongoDB</p>
               </li>
               <li>
               <BiCheck className='service__list-icon'/>
               <p>Real-time applications using WebSockets</p>
-              </li>      
+              </li>       */}
 
           </ul>
         </article>
@@ -64,22 +61,18 @@ const Services = () => {
         {/* 3rd Service */}
         <article className='service'>
           <div className="service__head">
-            <h3>Full-Stack Web Application Development</h3>
+            <h3>Community and Event Engagement</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>End-to-end development of MERN stack applications</p>
+              <p>leadership experience in ACM and Zimal UET Lahore </p>
               </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Deployment and hosting ( Netlify, or custom servers)</p>
+              <p>I’m available for event coordination, organizing workshops, and community engagement within the tech space.</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Ongoing support and maintenance.</p>
-              </li>
-             
+           
              </ul>
         </article>
       </div>

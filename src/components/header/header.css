@@ -37,13 +37,16 @@ header{
 
 .me{
     background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    margin-top: 4rem;
-    left: calc(50% - 11rem);
+    width: 100%;
+    max-width: 22rem;
+    height: auto;
+    /* position: absolute; */
+    /* margin-top: 4rem; */
+    margin: 2rem auto 0; 
+    /* left: calc(50% - 11rem); */
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
+    
    
 }
 
@@ -62,6 +65,10 @@ header{
     header{
         height: 68vh;
     }
+    .me {
+        max-width: 18rem;  /* Smaller width for medium devices */
+        /* margin-top: 1rem; */
+    }
     
     
 }
@@ -75,7 +82,11 @@ header{
     .scroll__down{
         display: none;
     }
-  
+    .me {
+       object-fit: contain;
+       width: 100%;
+       height: auto;
+    }
     
 }
 

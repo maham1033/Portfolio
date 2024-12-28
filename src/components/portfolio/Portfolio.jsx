@@ -16,7 +16,7 @@ const Portfolio = () => {
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             {/* 1st */}
-            <img src={img1} alt="" />
+            <img src={img1} alt="" className='modification' />
           </div>
           <h3>Responsive App Landing Page</h3>
           <div className="portfolio__item-cta">
@@ -29,7 +29,7 @@ const Portfolio = () => {
         {/* 2nd */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={img2} alt="" />
+            <img src={img2} alt=""  className='modification'/>
           </div>
           <h3>Responsive Quiz App</h3>
           <div className="portfolio__item-cta">
@@ -42,7 +42,7 @@ const Portfolio = () => {
         {/* 3rd */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={img3} alt="" />
+            <img src={img3} alt="" className='modification' />
           </div>
           <h3>Memory Game</h3>
           <div className="portfolio__item-cta">
@@ -55,7 +55,7 @@ const Portfolio = () => {
         {/* 4th */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={img4} alt="" />
+            <img src={img4} alt="" className='modification' />
           </div>
           <h3>TIC TAC TOE Game</h3>
           <div className="portfolio__item-cta">
@@ -68,7 +68,7 @@ const Portfolio = () => {
         {/* 5th */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={img5} alt="" />
+            <img src={img5} alt=""  className='modification'/>
           </div>
           <h3>I-Coder Web Application</h3>
           <div className="portfolio__item-cta">
@@ -81,7 +81,7 @@ const Portfolio = () => {
         {/* 6th */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={img6} alt="" />
+            <img src={img6} alt="" className='modification' />
           </div>
           <h3>Responsive Todo List App</h3>
           <div className="portfolio__item-cta">

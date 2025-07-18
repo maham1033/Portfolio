@@ -8,19 +8,23 @@
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
+    /* transition: var(--transition); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .portfolio__item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
-
+    transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  
 }
 .portfolio__item-image{
-    border-radius: 1.5rem;
+    border-radius: 0;
     overflow: hidden;
 }
 .modification{
     border-radius: 0rem;
+    transition: transform 0.3s ease;
 }
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;
@@ -48,3 +52,4 @@
      }
    
 }
+

@@ -24,6 +24,11 @@
     color: var(--color-light
     );
 }
+.about__heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 
 /* MEDIA QUERIES(MIDIUM DEVICES */
 @media screen and (max-width:1024px) {
